@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    /* width: 400px; */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: rgb(151, 150, 253);
+    text-align: center;
+    position: relative;
+}
+
+#logo {
+    top: 3px;
+    left: 10px;
+    width: 95px;
+}
+
+.occurrence {
+    border: 1px solid #9b7ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background-color: #f1e6ff;
+    border-radius: 4px;
+}
+
+.date {
+    font-weight: bold;
+    color: #6b38a5;
+}
+
+.description {
+    margin-top: 5px;
+    color: #4f4f4f;
+}
+
+:visited {
+    color: white;
+}
+
+:link {
+    color: white;
+}
+
+.bodydois {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos para telas menores, como tablets */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 80%; /* Reduza o tamanho máximo do conteúdo */
+    }
+
+    .occurrence {
+        margin: 10px; /* Ajuste as margens das ocorrências */
+        padding: 10px; /* Ajuste o preenchimento das ocorrências */
+    }
+
+    #logo {
+        width: 80px; /* Reduza o tamanho do logotipo */
+    }
+}
